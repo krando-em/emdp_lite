@@ -1,0 +1,27 @@
+SELECT
+    date,
+    insertion_order_id,
+    insertion_order,
+    insertion_order_status,
+    advertiser_id,
+    advertiser,
+    ad_server_placement_id,
+    exchange_id,
+    creative_id,
+    creative,
+    exchange,
+    line_item_id,
+    line_item,
+    line_item_type,
+    currency,
+    media_cost_revenue,
+    mediacost,
+    impressions,
+    clicks,
+    complete_views_video,
+    first_quartile_views_video,
+    midpoint_views_video,
+    third_quartile_views_video,
+    impressions
+
+FROM {DV360_BASE_TABLE}
